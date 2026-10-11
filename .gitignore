@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# CatBoost & Tensorboard logs
+catboost_info/
+
+# Virtual environments
+venv/
+.env/
+
+# Datasets (audio files)
+Dataset_Final/
+Dataset/
+
+# Precomputed data matrices and local caches
+data/
+*.npy
+*.npz
+*.parquet
+
+# Heavy model checkpoints (>50MB)
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+
+# Local experiment archive & legacy dumps
+archive/
